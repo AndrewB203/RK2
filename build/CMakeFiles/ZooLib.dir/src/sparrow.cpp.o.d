@@ -1,5 +1,5 @@
-CMakeFiles/ZooLib.dir/sources/animal.cpp.o: \
- /home/andrew/AndrewB203/workspacenew/RK2/sources/animal.cpp \
+CMakeFiles/ZooLib.dir/src/sparrow.cpp.o: \
+ /home/andrew/AndrewB203/workspacenew/RK2/src/sparrow.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -126,4 +126,7 @@ CMakeFiles/ZooLib.dir/sources/animal.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/andrew/AndrewB203/workspacenew/RK2/include/animal.h
+ /home/andrew/AndrewB203/workspacenew/RK2/include/bird.h \
+ /home/andrew/AndrewB203/workspacenew/RK2/include/animal.h \
+ /home/andrew/AndrewB203/workspacenew/RK2/include/sparrow.h \
+ /home/andrew/AndrewB203/workspacenew/RK2/include/bird.h

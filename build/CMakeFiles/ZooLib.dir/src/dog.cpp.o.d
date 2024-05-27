@@ -1,5 +1,5 @@
-CMakeFiles/ZooLib.dir/sources/dog.cpp.o: \
- /home/andrew/AndrewB203/workspacenew/RK2/sources/dog.cpp \
+CMakeFiles/ZooLib.dir/src/dog.cpp.o: \
+ /home/andrew/AndrewB203/workspacenew/RK2/src/dog.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -69,188 +69,188 @@ include CMakeFiles/ZooLib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ZooLib.dir/flags.make
 
-CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o: ../sources/amphibian.cpp
-CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o -MF CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/amphibian.cpp
+CMakeFiles/ZooLib.dir/src/amphibian.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/amphibian.cpp.o: ../src/amphibian.cpp
+CMakeFiles/ZooLib.dir/src/amphibian.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ZooLib.dir/src/amphibian.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/amphibian.cpp.o -MF CMakeFiles/ZooLib.dir/src/amphibian.cpp.o.d -o CMakeFiles/ZooLib.dir/src/amphibian.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/amphibian.cpp
 
-CMakeFiles/ZooLib.dir/sources/amphibian.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/amphibian.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/amphibian.cpp > CMakeFiles/ZooLib.dir/sources/amphibian.cpp.i
+CMakeFiles/ZooLib.dir/src/amphibian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/amphibian.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/amphibian.cpp > CMakeFiles/ZooLib.dir/src/amphibian.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/amphibian.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/amphibian.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/amphibian.cpp -o CMakeFiles/ZooLib.dir/sources/amphibian.cpp.s
+CMakeFiles/ZooLib.dir/src/amphibian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/amphibian.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/amphibian.cpp -o CMakeFiles/ZooLib.dir/src/amphibian.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/animal.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/animal.cpp.o: ../sources/animal.cpp
-CMakeFiles/ZooLib.dir/sources/animal.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ZooLib.dir/sources/animal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/animal.cpp.o -MF CMakeFiles/ZooLib.dir/sources/animal.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/animal.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/animal.cpp
+CMakeFiles/ZooLib.dir/src/animal.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/animal.cpp.o: ../src/animal.cpp
+CMakeFiles/ZooLib.dir/src/animal.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ZooLib.dir/src/animal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/animal.cpp.o -MF CMakeFiles/ZooLib.dir/src/animal.cpp.o.d -o CMakeFiles/ZooLib.dir/src/animal.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/animal.cpp
 
-CMakeFiles/ZooLib.dir/sources/animal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/animal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/animal.cpp > CMakeFiles/ZooLib.dir/sources/animal.cpp.i
+CMakeFiles/ZooLib.dir/src/animal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/animal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/animal.cpp > CMakeFiles/ZooLib.dir/src/animal.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/animal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/animal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/animal.cpp -o CMakeFiles/ZooLib.dir/sources/animal.cpp.s
+CMakeFiles/ZooLib.dir/src/animal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/animal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/animal.cpp -o CMakeFiles/ZooLib.dir/src/animal.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/bird.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/bird.cpp.o: ../sources/bird.cpp
-CMakeFiles/ZooLib.dir/sources/bird.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ZooLib.dir/sources/bird.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/bird.cpp.o -MF CMakeFiles/ZooLib.dir/sources/bird.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/bird.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/bird.cpp
+CMakeFiles/ZooLib.dir/src/bird.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/bird.cpp.o: ../src/bird.cpp
+CMakeFiles/ZooLib.dir/src/bird.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ZooLib.dir/src/bird.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/bird.cpp.o -MF CMakeFiles/ZooLib.dir/src/bird.cpp.o.d -o CMakeFiles/ZooLib.dir/src/bird.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/bird.cpp
 
-CMakeFiles/ZooLib.dir/sources/bird.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/bird.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/bird.cpp > CMakeFiles/ZooLib.dir/sources/bird.cpp.i
+CMakeFiles/ZooLib.dir/src/bird.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/bird.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/bird.cpp > CMakeFiles/ZooLib.dir/src/bird.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/bird.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/bird.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/bird.cpp -o CMakeFiles/ZooLib.dir/sources/bird.cpp.s
+CMakeFiles/ZooLib.dir/src/bird.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/bird.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/bird.cpp -o CMakeFiles/ZooLib.dir/src/bird.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/cat.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/cat.cpp.o: ../sources/cat.cpp
-CMakeFiles/ZooLib.dir/sources/cat.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ZooLib.dir/sources/cat.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/cat.cpp.o -MF CMakeFiles/ZooLib.dir/sources/cat.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/cat.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/cat.cpp
+CMakeFiles/ZooLib.dir/src/cat.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/cat.cpp.o: ../src/cat.cpp
+CMakeFiles/ZooLib.dir/src/cat.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ZooLib.dir/src/cat.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/cat.cpp.o -MF CMakeFiles/ZooLib.dir/src/cat.cpp.o.d -o CMakeFiles/ZooLib.dir/src/cat.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/cat.cpp
 
-CMakeFiles/ZooLib.dir/sources/cat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/cat.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/cat.cpp > CMakeFiles/ZooLib.dir/sources/cat.cpp.i
+CMakeFiles/ZooLib.dir/src/cat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/cat.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/cat.cpp > CMakeFiles/ZooLib.dir/src/cat.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/cat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/cat.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/cat.cpp -o CMakeFiles/ZooLib.dir/sources/cat.cpp.s
+CMakeFiles/ZooLib.dir/src/cat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/cat.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/cat.cpp -o CMakeFiles/ZooLib.dir/src/cat.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/dog.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/dog.cpp.o: ../sources/dog.cpp
-CMakeFiles/ZooLib.dir/sources/dog.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ZooLib.dir/sources/dog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/dog.cpp.o -MF CMakeFiles/ZooLib.dir/sources/dog.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/dog.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/dog.cpp
+CMakeFiles/ZooLib.dir/src/dog.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/dog.cpp.o: ../src/dog.cpp
+CMakeFiles/ZooLib.dir/src/dog.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ZooLib.dir/src/dog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/dog.cpp.o -MF CMakeFiles/ZooLib.dir/src/dog.cpp.o.d -o CMakeFiles/ZooLib.dir/src/dog.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/dog.cpp
 
-CMakeFiles/ZooLib.dir/sources/dog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/dog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/dog.cpp > CMakeFiles/ZooLib.dir/sources/dog.cpp.i
+CMakeFiles/ZooLib.dir/src/dog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/dog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/dog.cpp > CMakeFiles/ZooLib.dir/src/dog.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/dog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/dog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/dog.cpp -o CMakeFiles/ZooLib.dir/sources/dog.cpp.s
+CMakeFiles/ZooLib.dir/src/dog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/dog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/dog.cpp -o CMakeFiles/ZooLib.dir/src/dog.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/frog.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/frog.cpp.o: ../sources/frog.cpp
-CMakeFiles/ZooLib.dir/sources/frog.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ZooLib.dir/sources/frog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/frog.cpp.o -MF CMakeFiles/ZooLib.dir/sources/frog.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/frog.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/frog.cpp
+CMakeFiles/ZooLib.dir/src/frog.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/frog.cpp.o: ../src/frog.cpp
+CMakeFiles/ZooLib.dir/src/frog.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ZooLib.dir/src/frog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/frog.cpp.o -MF CMakeFiles/ZooLib.dir/src/frog.cpp.o.d -o CMakeFiles/ZooLib.dir/src/frog.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/frog.cpp
 
-CMakeFiles/ZooLib.dir/sources/frog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/frog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/frog.cpp > CMakeFiles/ZooLib.dir/sources/frog.cpp.i
+CMakeFiles/ZooLib.dir/src/frog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/frog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/frog.cpp > CMakeFiles/ZooLib.dir/src/frog.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/frog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/frog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/frog.cpp -o CMakeFiles/ZooLib.dir/sources/frog.cpp.s
+CMakeFiles/ZooLib.dir/src/frog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/frog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/frog.cpp -o CMakeFiles/ZooLib.dir/src/frog.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/mammal.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/mammal.cpp.o: ../sources/mammal.cpp
-CMakeFiles/ZooLib.dir/sources/mammal.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ZooLib.dir/sources/mammal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/mammal.cpp.o -MF CMakeFiles/ZooLib.dir/sources/mammal.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/mammal.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/mammal.cpp
+CMakeFiles/ZooLib.dir/src/mammal.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/mammal.cpp.o: ../src/mammal.cpp
+CMakeFiles/ZooLib.dir/src/mammal.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ZooLib.dir/src/mammal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/mammal.cpp.o -MF CMakeFiles/ZooLib.dir/src/mammal.cpp.o.d -o CMakeFiles/ZooLib.dir/src/mammal.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/mammal.cpp
 
-CMakeFiles/ZooLib.dir/sources/mammal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/mammal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/mammal.cpp > CMakeFiles/ZooLib.dir/sources/mammal.cpp.i
+CMakeFiles/ZooLib.dir/src/mammal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/mammal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/mammal.cpp > CMakeFiles/ZooLib.dir/src/mammal.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/mammal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/mammal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/mammal.cpp -o CMakeFiles/ZooLib.dir/sources/mammal.cpp.s
+CMakeFiles/ZooLib.dir/src/mammal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/mammal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/mammal.cpp -o CMakeFiles/ZooLib.dir/src/mammal.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/reptile.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/reptile.cpp.o: ../sources/reptile.cpp
-CMakeFiles/ZooLib.dir/sources/reptile.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ZooLib.dir/sources/reptile.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/reptile.cpp.o -MF CMakeFiles/ZooLib.dir/sources/reptile.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/reptile.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/reptile.cpp
+CMakeFiles/ZooLib.dir/src/reptile.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/reptile.cpp.o: ../src/reptile.cpp
+CMakeFiles/ZooLib.dir/src/reptile.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ZooLib.dir/src/reptile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/reptile.cpp.o -MF CMakeFiles/ZooLib.dir/src/reptile.cpp.o.d -o CMakeFiles/ZooLib.dir/src/reptile.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/reptile.cpp
 
-CMakeFiles/ZooLib.dir/sources/reptile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/reptile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/reptile.cpp > CMakeFiles/ZooLib.dir/sources/reptile.cpp.i
+CMakeFiles/ZooLib.dir/src/reptile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/reptile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/reptile.cpp > CMakeFiles/ZooLib.dir/src/reptile.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/reptile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/reptile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/reptile.cpp -o CMakeFiles/ZooLib.dir/sources/reptile.cpp.s
+CMakeFiles/ZooLib.dir/src/reptile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/reptile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/reptile.cpp -o CMakeFiles/ZooLib.dir/src/reptile.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/snake.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/snake.cpp.o: ../sources/snake.cpp
-CMakeFiles/ZooLib.dir/sources/snake.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ZooLib.dir/sources/snake.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/snake.cpp.o -MF CMakeFiles/ZooLib.dir/sources/snake.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/snake.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/snake.cpp
+CMakeFiles/ZooLib.dir/src/snake.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/snake.cpp.o: ../src/snake.cpp
+CMakeFiles/ZooLib.dir/src/snake.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ZooLib.dir/src/snake.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/snake.cpp.o -MF CMakeFiles/ZooLib.dir/src/snake.cpp.o.d -o CMakeFiles/ZooLib.dir/src/snake.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/snake.cpp
 
-CMakeFiles/ZooLib.dir/sources/snake.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/snake.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/snake.cpp > CMakeFiles/ZooLib.dir/sources/snake.cpp.i
+CMakeFiles/ZooLib.dir/src/snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/snake.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/snake.cpp > CMakeFiles/ZooLib.dir/src/snake.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/snake.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/snake.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/snake.cpp -o CMakeFiles/ZooLib.dir/sources/snake.cpp.s
+CMakeFiles/ZooLib.dir/src/snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/snake.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/snake.cpp -o CMakeFiles/ZooLib.dir/src/snake.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o: ../sources/sparrow.cpp
-CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o -MF CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/sparrow.cpp
+CMakeFiles/ZooLib.dir/src/sparrow.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/sparrow.cpp.o: ../src/sparrow.cpp
+CMakeFiles/ZooLib.dir/src/sparrow.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ZooLib.dir/src/sparrow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/sparrow.cpp.o -MF CMakeFiles/ZooLib.dir/src/sparrow.cpp.o.d -o CMakeFiles/ZooLib.dir/src/sparrow.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/sparrow.cpp
 
-CMakeFiles/ZooLib.dir/sources/sparrow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/sparrow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/sparrow.cpp > CMakeFiles/ZooLib.dir/sources/sparrow.cpp.i
+CMakeFiles/ZooLib.dir/src/sparrow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/sparrow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/sparrow.cpp > CMakeFiles/ZooLib.dir/src/sparrow.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/sparrow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/sparrow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/sparrow.cpp -o CMakeFiles/ZooLib.dir/sources/sparrow.cpp.s
+CMakeFiles/ZooLib.dir/src/sparrow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/sparrow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/sparrow.cpp -o CMakeFiles/ZooLib.dir/src/sparrow.cpp.s
 
-CMakeFiles/ZooLib.dir/sources/zoo.cpp.o: CMakeFiles/ZooLib.dir/flags.make
-CMakeFiles/ZooLib.dir/sources/zoo.cpp.o: ../sources/zoo.cpp
-CMakeFiles/ZooLib.dir/sources/zoo.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ZooLib.dir/sources/zoo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/sources/zoo.cpp.o -MF CMakeFiles/ZooLib.dir/sources/zoo.cpp.o.d -o CMakeFiles/ZooLib.dir/sources/zoo.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/sources/zoo.cpp
+CMakeFiles/ZooLib.dir/src/zoo.cpp.o: CMakeFiles/ZooLib.dir/flags.make
+CMakeFiles/ZooLib.dir/src/zoo.cpp.o: ../src/zoo.cpp
+CMakeFiles/ZooLib.dir/src/zoo.cpp.o: CMakeFiles/ZooLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ZooLib.dir/src/zoo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ZooLib.dir/src/zoo.cpp.o -MF CMakeFiles/ZooLib.dir/src/zoo.cpp.o.d -o CMakeFiles/ZooLib.dir/src/zoo.cpp.o -c /home/andrew/AndrewB203/workspacenew/RK2/src/zoo.cpp
 
-CMakeFiles/ZooLib.dir/sources/zoo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/sources/zoo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/sources/zoo.cpp > CMakeFiles/ZooLib.dir/sources/zoo.cpp.i
+CMakeFiles/ZooLib.dir/src/zoo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZooLib.dir/src/zoo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrew/AndrewB203/workspacenew/RK2/src/zoo.cpp > CMakeFiles/ZooLib.dir/src/zoo.cpp.i
 
-CMakeFiles/ZooLib.dir/sources/zoo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/sources/zoo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/sources/zoo.cpp -o CMakeFiles/ZooLib.dir/sources/zoo.cpp.s
+CMakeFiles/ZooLib.dir/src/zoo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZooLib.dir/src/zoo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrew/AndrewB203/workspacenew/RK2/src/zoo.cpp -o CMakeFiles/ZooLib.dir/src/zoo.cpp.s
 
 # Object files for target ZooLib
 ZooLib_OBJECTS = \
-"CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/animal.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/bird.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/cat.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/dog.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/frog.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/mammal.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/reptile.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/snake.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o" \
-"CMakeFiles/ZooLib.dir/sources/zoo.cpp.o"
+"CMakeFiles/ZooLib.dir/src/amphibian.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/animal.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/bird.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/cat.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/dog.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/frog.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/mammal.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/reptile.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/snake.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/sparrow.cpp.o" \
+"CMakeFiles/ZooLib.dir/src/zoo.cpp.o"
 
 # External object files for target ZooLib
 ZooLib_EXTERNAL_OBJECTS =
 
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/animal.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/bird.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/cat.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/dog.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/frog.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/mammal.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/reptile.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/snake.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o
-libZooLib.a: CMakeFiles/ZooLib.dir/sources/zoo.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/amphibian.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/animal.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/bird.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/cat.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/dog.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/frog.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/mammal.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/reptile.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/snake.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/sparrow.cpp.o
+libZooLib.a: CMakeFiles/ZooLib.dir/src/zoo.cpp.o
 libZooLib.a: CMakeFiles/ZooLib.dir/build.make
 libZooLib.a: CMakeFiles/ZooLib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libZooLib.a"

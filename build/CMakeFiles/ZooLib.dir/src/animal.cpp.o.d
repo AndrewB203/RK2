@@ -1,5 +1,5 @@
-CMakeFiles/ZooLib.dir/sources/cat.cpp.o: \
- /home/andrew/AndrewB203/workspacenew/RK2/sources/cat.cpp \
+CMakeFiles/ZooLib.dir/src/animal.cpp.o: \
+ /home/andrew/AndrewB203/workspacenew/RK2/src/animal.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -126,7 +126,4 @@ CMakeFiles/ZooLib.dir/sources/cat.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/andrew/AndrewB203/workspacenew/RK2/include/mammal.h \
- /home/andrew/AndrewB203/workspacenew/RK2/include/animal.h \
- /home/andrew/AndrewB203/workspacenew/RK2/include/cat.h \
- /home/andrew/AndrewB203/workspacenew/RK2/include/mammal.h
+ /home/andrew/AndrewB203/workspacenew/RK2/include/animal.h

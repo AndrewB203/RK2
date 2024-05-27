@@ -1,5 +1,5 @@
-CMakeFiles/ZooLib.dir/sources/frog.cpp.o: \
- /home/andrew/AndrewB203/workspacenew/RK2/sources/frog.cpp \
+CMakeFiles/ZooLib.dir/src/frog.cpp.o: \
+ /home/andrew/AndrewB203/workspacenew/RK2/src/frog.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
