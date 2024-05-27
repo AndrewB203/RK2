@@ -8,40 +8,22 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y cmake make g++
-
-    - name: Configure CMake
-      run: |
-        rm -rf ${{github.workspace}}/build
-        mkdir ${{github.workspace}}/build
-        cmake -B ${{github.workspace}}/build -S ${{github.workspace}}
+    - name: Set up CMake
+      uses: actions/setup-cmake@v3
+      with:
+        cmake-version: '3.18' # Укажите версию CMake, которую вы предпочитаете
 
     - name: Build
-      run: |
-        cmake --build ${{github.workspace}}/build
-    
-    - name: Run tests
-      run: ctest --output-on-failure
-      
-    - name: Archive executable
-      id: archive
-      run: |
-        mkdir -p build/artifacts
-        cp ./src/ZooApp build/artifacts/
-        ls -lh build/artifacts
-      shell: bash
+      run: cmake --build ./build --config Release --target all -- -j 4
+      working-directory: ./build
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: ZooApp
-        path: build/artifacts/ZooApp
+    - name: Run tests
+      run: ctest --test-dir ./build --output-on-failure
+      working-directory: ./build
