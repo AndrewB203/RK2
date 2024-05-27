@@ -4,5 +4,6 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-add_test(test_amphibian "/home/andrew/AndrewB203/workspacenew/RK2/build/test_amphibian")
-set_tests_properties(test_amphibian PROPERTIES  _BACKTRACE_TRIPLES "/home/andrew/AndrewB203/workspacenew/RK2/CMakeLists.txt;55;add_test;/home/andrew/AndrewB203/workspacenew/RK2/CMakeLists.txt;0;")
+add_test(ProtoZoo "/home/andrew/AndrewB203/workspacenew/RK2/build/ProtoZoo")
+set_tests_properties(ProtoZoo PROPERTIES  _BACKTRACE_TRIPLES "/home/andrew/AndrewB203/workspacenew/RK2/CMakeLists.txt;49;add_test;/home/andrew/AndrewB203/workspacenew/RK2/CMakeLists.txt;0;")
+subdirs("third-party/gtest")

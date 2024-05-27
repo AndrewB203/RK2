@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 CMakeFiles/ProtoZoo.dir/tests/test_amphibian.cpp.o -o ProtoZoo  lib/libgtest_main.a libZooLib.a lib/libgtest.a 

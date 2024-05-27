@@ -1,5 +1,0 @@
-/home/andrew/AndrewB203/workspacenew/RK2/tests/build/CMakeFiles/ZooLib.dir
-/home/andrew/AndrewB203/workspacenew/RK2/tests/build/CMakeFiles/test_amphibian.dir
-/home/andrew/AndrewB203/workspacenew/RK2/tests/build/CMakeFiles/test.dir
-/home/andrew/AndrewB203/workspacenew/RK2/tests/build/CMakeFiles/edit_cache.dir
-/home/andrew/AndrewB203/workspacenew/RK2/tests/build/CMakeFiles/rebuild_cache.dir

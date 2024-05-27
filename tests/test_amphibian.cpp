@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
-#include "amphibian.h"
-#include "animal.h" // Если класс animal определен в другом файле
+#include "../source/amphibian.h"
+#include "../source/animal.h" // Если класс animal определен в другом файле
 
 // Тесты для класса amphibian
 class AmphibianTest : public ::testing::Test {

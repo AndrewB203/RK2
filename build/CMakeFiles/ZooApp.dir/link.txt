@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/ZooApp.dir/main.cpp.o -o ZooApp  libZooLib.a 
+/usr/bin/c++  -std=c++14 CMakeFiles/ZooApp.dir/main.cpp.o -o ZooApp  libZooLib.a 
