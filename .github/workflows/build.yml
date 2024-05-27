@@ -16,7 +16,18 @@ jobs:
 
     - name: Set up CMake
       uses: actions/setup-cmake@v3
+      with:
+        cmake-version: '3.16.x'
+
+    - name: Clean build directory
+      run: |
+        rm -rf ${{ github.workspace }}/build
+        mkdir ${{ github.workspace }}/build
+
+    - name: Configure CMake
+      working-directory: ${{ github.workspace }}/build
+      run: cmake ${{ github.workspace }} -DCMAKE_BUILD_TYPE=Release
 
     - name: Build
+      working-directory: ${{ github.workspace }}/build
       run: cmake --build . --config Release
-
