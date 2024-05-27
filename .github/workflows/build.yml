@@ -20,8 +20,8 @@ jobs:
         mkdir ${{github.workspace}}/build
         cmake -B ${{github.workspace}}/build -S ${{github.workspace}}
     - name: Build
-      run: cmake --build ./build --config Release --target all -- -j 4
-      working-directory: ./build
+	      run: |
+	        cmake --build ${{github.workspace}}/build
 
     - name: Run tests
       run: ctest --test-dir ./build --output-on-failure
