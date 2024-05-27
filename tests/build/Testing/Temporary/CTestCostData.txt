@@ -1,2 +1,0 @@
-test_amphibian 1 0.0035028
----
