@@ -15,11 +15,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up CMake
-      uses: actions/setup-cmake@v3
-      with:
-        cmake-version: '3.18' # Укажите версию CMake, которую вы предпочитаете
-
     - name: Build
       run: cmake --build ./build --config Release --target all -- -j 4
       working-directory: ./build
