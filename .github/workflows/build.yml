@@ -14,15 +14,17 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+
     - name: Configure CMake
       run: |
-        rm -rf ${{github.workspace}}/build
-        mkdir ${{github.workspace}}/build
-        cmake -B ${{github.workspace}}/build -S ${{github.workspace}}
+        rm -rf ${{ github.workspace }}/build
+        mkdir ${{ github.workspace }}/build
+        cmake -B ${{ github.workspace }}/build -S ${{ github.workspace }}
+
     - name: Build
-	      run: |
-	        cmake --build ${{github.workspace}}/build
+      run: |
+        cmake --build ${{ github.workspace }}/build
 
     - name: Run tests
-      run: ctest --test-dir ./build --output-on-failure
-      working-directory: ./build
+      run: ctest --test-dir ${{ github.workspace }}/build --output-on-failure
+      working-directory: ${{ github.workspace }}/build
