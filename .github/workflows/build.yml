@@ -14,7 +14,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
+    - name: Configure CMake
+      run: |
+        rm -rf ${{github.workspace}}/build
+        mkdir ${{github.workspace}}/build
+        cmake -B ${{github.workspace}}/build -S ${{github.workspace}}
     - name: Build
       run: cmake --build ./build --config Release --target all -- -j 4
       working-directory: ./build
