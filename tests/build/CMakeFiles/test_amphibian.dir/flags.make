@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/andrew/AndrewB203/workspacenew/RK2/tests/../include -I/gtest/include
+CXX_INCLUDES = -I/home/andrew/AndrewB203/workspacenew/RK2/tests/../include -I/home/andrew/AndrewB203/workspacenew/RK2/tests/../third-party/gtest/include
 
 CXX_FLAGS =   -std=c++14
 

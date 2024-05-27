@@ -1,10 +1,10 @@
-Start testing: May 27 15:24 MSK
+Start testing: May 27 16:20 MSK
 ----------------------------------------------------------
 1/1 Testing: test_amphibian
 1/1 Test: test_amphibian
 Command: "/home/andrew/AndrewB203/workspacenew/RK2/tests/build/test_amphibian"
 Directory: /home/andrew/AndrewB203/workspacenew/RK2/tests/build
-"test_amphibian" start time: May 27 15:24 MSK
+"test_amphibian" start time: May 27 16:20 MSK
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -25,8 +25,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_amphibian" end time: May 27 15:24 MSK
+"test_amphibian" end time: May 27 16:20 MSK
 "test_amphibian" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 27 15:24 MSK
+End testing: May 27 16:20 MSK

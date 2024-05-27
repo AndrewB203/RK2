@@ -10,6 +10,8 @@ set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../src)
 # Установка переменной для пути к тестам
 set(TEST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../tests)
 
+set(THIRD_PARTY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../third-party)
+
 # Добавление компиляционных опций
 add_definitions(-std=c++14)
 
