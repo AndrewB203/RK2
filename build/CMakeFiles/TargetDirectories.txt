@@ -1,3 +1,6 @@
-/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles/ZooExample.dir
+/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles/ZooLib.dir
+/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles/ZooApp.dir
+/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles/test_amphibian.dir
+/home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles/test.dir
 /home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles/edit_cache.dir
 /home/andrew/AndrewB203/workspacenew/RK2/build/CMakeFiles/rebuild_cache.dir

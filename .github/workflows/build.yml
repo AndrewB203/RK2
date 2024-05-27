@@ -28,3 +28,20 @@ jobs:
     - name: Build
       run: |
         cmake --build ${{github.workspace}}/build
+    
+    - name: Run tests
+      run: ctest --output-on-failure
+      
+    - name: Archive executable
+      id: archive
+      run: |
+        mkdir -p build/artifacts
+        cp ./src/ZooApp build/artifacts/
+        ls -lh build/artifacts
+      shell: bash
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: ZooApp
+        path: build/artifacts/ZooApp

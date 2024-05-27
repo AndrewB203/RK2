@@ -118,5 +118,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ZooExample.dir/DependInfo.cmake"
+  "CMakeFiles/ZooLib.dir/DependInfo.cmake"
+  "CMakeFiles/ZooApp.dir/DependInfo.cmake"
+  "CMakeFiles/test_amphibian.dir/DependInfo.cmake"
   )

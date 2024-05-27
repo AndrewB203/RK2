@@ -1,0 +1,2 @@
+/usr/bin/ar qc libZooLib.a CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o CMakeFiles/ZooLib.dir/sources/animal.cpp.o CMakeFiles/ZooLib.dir/sources/bird.cpp.o CMakeFiles/ZooLib.dir/sources/cat.cpp.o CMakeFiles/ZooLib.dir/sources/dog.cpp.o CMakeFiles/ZooLib.dir/sources/frog.cpp.o CMakeFiles/ZooLib.dir/sources/mammal.cpp.o CMakeFiles/ZooLib.dir/sources/reptile.cpp.o CMakeFiles/ZooLib.dir/sources/snake.cpp.o CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o CMakeFiles/ZooLib.dir/sources/zoo.cpp.o
+/usr/bin/ranlib libZooLib.a

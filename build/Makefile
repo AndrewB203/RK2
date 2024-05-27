@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/andrew/AndrewB203/workspacenew/RK2/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -117,168 +127,50 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ZooExample
+# Target rules for targets named ZooLib
 
 # Build rule for target.
-ZooExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZooExample
-.PHONY : ZooExample
+ZooLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZooLib
+.PHONY : ZooLib
 
 # fast build rule for target.
-ZooExample/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/build
-.PHONY : ZooExample/fast
+ZooLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/build
+.PHONY : ZooLib/fast
 
-amphibian.o: amphibian.cpp.o
-.PHONY : amphibian.o
+#=============================================================================
+# Target rules for targets named ZooApp
 
-# target to build an object file
-amphibian.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/amphibian.cpp.o
-.PHONY : amphibian.cpp.o
+# Build rule for target.
+ZooApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZooApp
+.PHONY : ZooApp
 
-amphibian.i: amphibian.cpp.i
-.PHONY : amphibian.i
+# fast build rule for target.
+ZooApp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooApp.dir/build.make CMakeFiles/ZooApp.dir/build
+.PHONY : ZooApp/fast
 
-# target to preprocess a source file
-amphibian.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/amphibian.cpp.i
-.PHONY : amphibian.cpp.i
+#=============================================================================
+# Target rules for targets named test_amphibian
 
-amphibian.s: amphibian.cpp.s
-.PHONY : amphibian.s
+# Build rule for target.
+test_amphibian: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_amphibian
+.PHONY : test_amphibian
 
-# target to generate assembly for a file
-amphibian.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/amphibian.cpp.s
-.PHONY : amphibian.cpp.s
-
-animal.o: animal.cpp.o
-.PHONY : animal.o
-
-# target to build an object file
-animal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/animal.cpp.o
-.PHONY : animal.cpp.o
-
-animal.i: animal.cpp.i
-.PHONY : animal.i
-
-# target to preprocess a source file
-animal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/animal.cpp.i
-.PHONY : animal.cpp.i
-
-animal.s: animal.cpp.s
-.PHONY : animal.s
-
-# target to generate assembly for a file
-animal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/animal.cpp.s
-.PHONY : animal.cpp.s
-
-bird.o: bird.cpp.o
-.PHONY : bird.o
-
-# target to build an object file
-bird.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/bird.cpp.o
-.PHONY : bird.cpp.o
-
-bird.i: bird.cpp.i
-.PHONY : bird.i
-
-# target to preprocess a source file
-bird.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/bird.cpp.i
-.PHONY : bird.cpp.i
-
-bird.s: bird.cpp.s
-.PHONY : bird.s
-
-# target to generate assembly for a file
-bird.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/bird.cpp.s
-.PHONY : bird.cpp.s
-
-cat.o: cat.cpp.o
-.PHONY : cat.o
-
-# target to build an object file
-cat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/cat.cpp.o
-.PHONY : cat.cpp.o
-
-cat.i: cat.cpp.i
-.PHONY : cat.i
-
-# target to preprocess a source file
-cat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/cat.cpp.i
-.PHONY : cat.cpp.i
-
-cat.s: cat.cpp.s
-.PHONY : cat.s
-
-# target to generate assembly for a file
-cat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/cat.cpp.s
-.PHONY : cat.cpp.s
-
-dog.o: dog.cpp.o
-.PHONY : dog.o
-
-# target to build an object file
-dog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/dog.cpp.o
-.PHONY : dog.cpp.o
-
-dog.i: dog.cpp.i
-.PHONY : dog.i
-
-# target to preprocess a source file
-dog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/dog.cpp.i
-.PHONY : dog.cpp.i
-
-dog.s: dog.cpp.s
-.PHONY : dog.s
-
-# target to generate assembly for a file
-dog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/dog.cpp.s
-.PHONY : dog.cpp.s
-
-frog.o: frog.cpp.o
-.PHONY : frog.o
-
-# target to build an object file
-frog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/frog.cpp.o
-.PHONY : frog.cpp.o
-
-frog.i: frog.cpp.i
-.PHONY : frog.i
-
-# target to preprocess a source file
-frog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/frog.cpp.i
-.PHONY : frog.cpp.i
-
-frog.s: frog.cpp.s
-.PHONY : frog.s
-
-# target to generate assembly for a file
-frog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/frog.cpp.s
-.PHONY : frog.cpp.s
+# fast build rule for target.
+test_amphibian/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_amphibian.dir/build.make CMakeFiles/test_amphibian.dir/build
+.PHONY : test_amphibian/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooApp.dir/build.make CMakeFiles/ZooApp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -286,7 +178,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooApp.dir/build.make CMakeFiles/ZooApp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -294,128 +186,296 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooApp.dir/build.make CMakeFiles/ZooApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mammal.o: mammal.cpp.o
-.PHONY : mammal.o
+sources/amphibian.o: sources/amphibian.cpp.o
+.PHONY : sources/amphibian.o
 
 # target to build an object file
-mammal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/mammal.cpp.o
-.PHONY : mammal.cpp.o
+sources/amphibian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/amphibian.cpp.o
+.PHONY : sources/amphibian.cpp.o
 
-mammal.i: mammal.cpp.i
-.PHONY : mammal.i
+sources/amphibian.i: sources/amphibian.cpp.i
+.PHONY : sources/amphibian.i
 
 # target to preprocess a source file
-mammal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/mammal.cpp.i
-.PHONY : mammal.cpp.i
+sources/amphibian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/amphibian.cpp.i
+.PHONY : sources/amphibian.cpp.i
 
-mammal.s: mammal.cpp.s
-.PHONY : mammal.s
+sources/amphibian.s: sources/amphibian.cpp.s
+.PHONY : sources/amphibian.s
 
 # target to generate assembly for a file
-mammal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/mammal.cpp.s
-.PHONY : mammal.cpp.s
+sources/amphibian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/amphibian.cpp.s
+.PHONY : sources/amphibian.cpp.s
 
-reptile.o: reptile.cpp.o
-.PHONY : reptile.o
+sources/animal.o: sources/animal.cpp.o
+.PHONY : sources/animal.o
 
 # target to build an object file
-reptile.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/reptile.cpp.o
-.PHONY : reptile.cpp.o
+sources/animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/animal.cpp.o
+.PHONY : sources/animal.cpp.o
 
-reptile.i: reptile.cpp.i
-.PHONY : reptile.i
+sources/animal.i: sources/animal.cpp.i
+.PHONY : sources/animal.i
 
 # target to preprocess a source file
-reptile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/reptile.cpp.i
-.PHONY : reptile.cpp.i
+sources/animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/animal.cpp.i
+.PHONY : sources/animal.cpp.i
 
-reptile.s: reptile.cpp.s
-.PHONY : reptile.s
+sources/animal.s: sources/animal.cpp.s
+.PHONY : sources/animal.s
 
 # target to generate assembly for a file
-reptile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/reptile.cpp.s
-.PHONY : reptile.cpp.s
+sources/animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/animal.cpp.s
+.PHONY : sources/animal.cpp.s
 
-snake.o: snake.cpp.o
-.PHONY : snake.o
+sources/bird.o: sources/bird.cpp.o
+.PHONY : sources/bird.o
 
 # target to build an object file
-snake.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/snake.cpp.o
-.PHONY : snake.cpp.o
+sources/bird.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/bird.cpp.o
+.PHONY : sources/bird.cpp.o
 
-snake.i: snake.cpp.i
-.PHONY : snake.i
+sources/bird.i: sources/bird.cpp.i
+.PHONY : sources/bird.i
 
 # target to preprocess a source file
-snake.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/snake.cpp.i
-.PHONY : snake.cpp.i
+sources/bird.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/bird.cpp.i
+.PHONY : sources/bird.cpp.i
 
-snake.s: snake.cpp.s
-.PHONY : snake.s
+sources/bird.s: sources/bird.cpp.s
+.PHONY : sources/bird.s
 
 # target to generate assembly for a file
-snake.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/snake.cpp.s
-.PHONY : snake.cpp.s
+sources/bird.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/bird.cpp.s
+.PHONY : sources/bird.cpp.s
 
-sparrow.o: sparrow.cpp.o
-.PHONY : sparrow.o
+sources/cat.o: sources/cat.cpp.o
+.PHONY : sources/cat.o
 
 # target to build an object file
-sparrow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/sparrow.cpp.o
-.PHONY : sparrow.cpp.o
+sources/cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/cat.cpp.o
+.PHONY : sources/cat.cpp.o
 
-sparrow.i: sparrow.cpp.i
-.PHONY : sparrow.i
+sources/cat.i: sources/cat.cpp.i
+.PHONY : sources/cat.i
 
 # target to preprocess a source file
-sparrow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/sparrow.cpp.i
-.PHONY : sparrow.cpp.i
+sources/cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/cat.cpp.i
+.PHONY : sources/cat.cpp.i
 
-sparrow.s: sparrow.cpp.s
-.PHONY : sparrow.s
+sources/cat.s: sources/cat.cpp.s
+.PHONY : sources/cat.s
 
 # target to generate assembly for a file
-sparrow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/sparrow.cpp.s
-.PHONY : sparrow.cpp.s
+sources/cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/cat.cpp.s
+.PHONY : sources/cat.cpp.s
 
-zoo.o: zoo.cpp.o
-.PHONY : zoo.o
+sources/dog.o: sources/dog.cpp.o
+.PHONY : sources/dog.o
 
 # target to build an object file
-zoo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/zoo.cpp.o
-.PHONY : zoo.cpp.o
+sources/dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/dog.cpp.o
+.PHONY : sources/dog.cpp.o
 
-zoo.i: zoo.cpp.i
-.PHONY : zoo.i
+sources/dog.i: sources/dog.cpp.i
+.PHONY : sources/dog.i
 
 # target to preprocess a source file
-zoo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/zoo.cpp.i
-.PHONY : zoo.cpp.i
+sources/dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/dog.cpp.i
+.PHONY : sources/dog.cpp.i
 
-zoo.s: zoo.cpp.s
-.PHONY : zoo.s
+sources/dog.s: sources/dog.cpp.s
+.PHONY : sources/dog.s
 
 # target to generate assembly for a file
-zoo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooExample.dir/build.make CMakeFiles/ZooExample.dir/zoo.cpp.s
-.PHONY : zoo.cpp.s
+sources/dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/dog.cpp.s
+.PHONY : sources/dog.cpp.s
+
+sources/frog.o: sources/frog.cpp.o
+.PHONY : sources/frog.o
+
+# target to build an object file
+sources/frog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/frog.cpp.o
+.PHONY : sources/frog.cpp.o
+
+sources/frog.i: sources/frog.cpp.i
+.PHONY : sources/frog.i
+
+# target to preprocess a source file
+sources/frog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/frog.cpp.i
+.PHONY : sources/frog.cpp.i
+
+sources/frog.s: sources/frog.cpp.s
+.PHONY : sources/frog.s
+
+# target to generate assembly for a file
+sources/frog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/frog.cpp.s
+.PHONY : sources/frog.cpp.s
+
+sources/mammal.o: sources/mammal.cpp.o
+.PHONY : sources/mammal.o
+
+# target to build an object file
+sources/mammal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/mammal.cpp.o
+.PHONY : sources/mammal.cpp.o
+
+sources/mammal.i: sources/mammal.cpp.i
+.PHONY : sources/mammal.i
+
+# target to preprocess a source file
+sources/mammal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/mammal.cpp.i
+.PHONY : sources/mammal.cpp.i
+
+sources/mammal.s: sources/mammal.cpp.s
+.PHONY : sources/mammal.s
+
+# target to generate assembly for a file
+sources/mammal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/mammal.cpp.s
+.PHONY : sources/mammal.cpp.s
+
+sources/reptile.o: sources/reptile.cpp.o
+.PHONY : sources/reptile.o
+
+# target to build an object file
+sources/reptile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/reptile.cpp.o
+.PHONY : sources/reptile.cpp.o
+
+sources/reptile.i: sources/reptile.cpp.i
+.PHONY : sources/reptile.i
+
+# target to preprocess a source file
+sources/reptile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/reptile.cpp.i
+.PHONY : sources/reptile.cpp.i
+
+sources/reptile.s: sources/reptile.cpp.s
+.PHONY : sources/reptile.s
+
+# target to generate assembly for a file
+sources/reptile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/reptile.cpp.s
+.PHONY : sources/reptile.cpp.s
+
+sources/snake.o: sources/snake.cpp.o
+.PHONY : sources/snake.o
+
+# target to build an object file
+sources/snake.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/snake.cpp.o
+.PHONY : sources/snake.cpp.o
+
+sources/snake.i: sources/snake.cpp.i
+.PHONY : sources/snake.i
+
+# target to preprocess a source file
+sources/snake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/snake.cpp.i
+.PHONY : sources/snake.cpp.i
+
+sources/snake.s: sources/snake.cpp.s
+.PHONY : sources/snake.s
+
+# target to generate assembly for a file
+sources/snake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/snake.cpp.s
+.PHONY : sources/snake.cpp.s
+
+sources/sparrow.o: sources/sparrow.cpp.o
+.PHONY : sources/sparrow.o
+
+# target to build an object file
+sources/sparrow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/sparrow.cpp.o
+.PHONY : sources/sparrow.cpp.o
+
+sources/sparrow.i: sources/sparrow.cpp.i
+.PHONY : sources/sparrow.i
+
+# target to preprocess a source file
+sources/sparrow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/sparrow.cpp.i
+.PHONY : sources/sparrow.cpp.i
+
+sources/sparrow.s: sources/sparrow.cpp.s
+.PHONY : sources/sparrow.s
+
+# target to generate assembly for a file
+sources/sparrow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/sparrow.cpp.s
+.PHONY : sources/sparrow.cpp.s
+
+sources/zoo.o: sources/zoo.cpp.o
+.PHONY : sources/zoo.o
+
+# target to build an object file
+sources/zoo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/zoo.cpp.o
+.PHONY : sources/zoo.cpp.o
+
+sources/zoo.i: sources/zoo.cpp.i
+.PHONY : sources/zoo.i
+
+# target to preprocess a source file
+sources/zoo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/zoo.cpp.i
+.PHONY : sources/zoo.cpp.i
+
+sources/zoo.s: sources/zoo.cpp.s
+.PHONY : sources/zoo.s
+
+# target to generate assembly for a file
+sources/zoo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZooLib.dir/build.make CMakeFiles/ZooLib.dir/sources/zoo.cpp.s
+.PHONY : sources/zoo.cpp.s
+
+tests/test_amphibian.o: tests/test_amphibian.cpp.o
+.PHONY : tests/test_amphibian.o
+
+# target to build an object file
+tests/test_amphibian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_amphibian.dir/build.make CMakeFiles/test_amphibian.dir/tests/test_amphibian.cpp.o
+.PHONY : tests/test_amphibian.cpp.o
+
+tests/test_amphibian.i: tests/test_amphibian.cpp.i
+.PHONY : tests/test_amphibian.i
+
+# target to preprocess a source file
+tests/test_amphibian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_amphibian.dir/build.make CMakeFiles/test_amphibian.dir/tests/test_amphibian.cpp.i
+.PHONY : tests/test_amphibian.cpp.i
+
+tests/test_amphibian.s: tests/test_amphibian.cpp.s
+.PHONY : tests/test_amphibian.s
+
+# target to generate assembly for a file
+tests/test_amphibian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_amphibian.dir/build.make CMakeFiles/test_amphibian.dir/tests/test_amphibian.cpp.s
+.PHONY : tests/test_amphibian.cpp.s
 
 # Help Target
 help:
@@ -425,43 +485,49 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ZooExample"
-	@echo "... amphibian.o"
-	@echo "... amphibian.i"
-	@echo "... amphibian.s"
-	@echo "... animal.o"
-	@echo "... animal.i"
-	@echo "... animal.s"
-	@echo "... bird.o"
-	@echo "... bird.i"
-	@echo "... bird.s"
-	@echo "... cat.o"
-	@echo "... cat.i"
-	@echo "... cat.s"
-	@echo "... dog.o"
-	@echo "... dog.i"
-	@echo "... dog.s"
-	@echo "... frog.o"
-	@echo "... frog.i"
-	@echo "... frog.s"
+	@echo "... test"
+	@echo "... ZooApp"
+	@echo "... ZooLib"
+	@echo "... test_amphibian"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mammal.o"
-	@echo "... mammal.i"
-	@echo "... mammal.s"
-	@echo "... reptile.o"
-	@echo "... reptile.i"
-	@echo "... reptile.s"
-	@echo "... snake.o"
-	@echo "... snake.i"
-	@echo "... snake.s"
-	@echo "... sparrow.o"
-	@echo "... sparrow.i"
-	@echo "... sparrow.s"
-	@echo "... zoo.o"
-	@echo "... zoo.i"
-	@echo "... zoo.s"
+	@echo "... sources/amphibian.o"
+	@echo "... sources/amphibian.i"
+	@echo "... sources/amphibian.s"
+	@echo "... sources/animal.o"
+	@echo "... sources/animal.i"
+	@echo "... sources/animal.s"
+	@echo "... sources/bird.o"
+	@echo "... sources/bird.i"
+	@echo "... sources/bird.s"
+	@echo "... sources/cat.o"
+	@echo "... sources/cat.i"
+	@echo "... sources/cat.s"
+	@echo "... sources/dog.o"
+	@echo "... sources/dog.i"
+	@echo "... sources/dog.s"
+	@echo "... sources/frog.o"
+	@echo "... sources/frog.i"
+	@echo "... sources/frog.s"
+	@echo "... sources/mammal.o"
+	@echo "... sources/mammal.i"
+	@echo "... sources/mammal.s"
+	@echo "... sources/reptile.o"
+	@echo "... sources/reptile.i"
+	@echo "... sources/reptile.s"
+	@echo "... sources/snake.o"
+	@echo "... sources/snake.i"
+	@echo "... sources/snake.s"
+	@echo "... sources/sparrow.o"
+	@echo "... sources/sparrow.i"
+	@echo "... sources/sparrow.s"
+	@echo "... sources/zoo.o"
+	@echo "... sources/zoo.i"
+	@echo "... sources/zoo.s"
+	@echo "... tests/test_amphibian.o"
+	@echo "... tests/test_amphibian.i"
+	@echo "... tests/test_amphibian.s"
 .PHONY : help
 
 
