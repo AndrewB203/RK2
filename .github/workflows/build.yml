@@ -13,13 +13,16 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Configure CMake
       run: |
         rm -rf ${{ github.workspace }}/build
         mkdir ${{ github.workspace }}/build
         cmake -B ${{ github.workspace }}/build -S ${{ github.workspace }}
+        
+    - name: Checkout submodules
+      run: git submodule update --init --recursive
 
     - name: Build
       run: |
