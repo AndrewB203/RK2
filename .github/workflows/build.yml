@@ -31,3 +31,9 @@ jobs:
     - name: Run tests
       run: ctest --test-dir ${{ github.workspace }}/build --output-on-failure
       working-directory: ${{ github.workspace }}/build
+      
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: executable
+        path: ${{ github.workspace }}/build/ZooApp 
