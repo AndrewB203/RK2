@@ -17,11 +17,13 @@ jobs:
       
     - name: Checkout submodules
       run: git submodule update --init --recursive
+      
     - name: Configure CMake
       run: |
         rm -rf ${{ github.workspace }}/build
         mkdir ${{ github.workspace }}/build
         cmake -B ${{ github.workspace }}/build -S ${{ github.workspace }} -DBUILD_TESTS=ON
+        
     - name: Build
       run: |
         cmake --build ${{ github.workspace }}/build
