@@ -31,7 +31,7 @@ jobs:
       run: |
         echo ${{ github.workspace }}
         ls ${{ github.workspace }}/build 
-        ctest --test-dir ${{ github.workspace }}/build --output-on-failure
+        ctest --test-dir ${{ github.workspace }}/build 
       working-directory: ${{ github.workspace }}/build
       
     - name: Archive artifacts
