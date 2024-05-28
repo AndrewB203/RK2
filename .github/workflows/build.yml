@@ -17,20 +17,10 @@ jobs:
     - name: Checkout submodules
       run: git submodule update --init --recursive
 
-    - name: Cache build
-      uses: actions/cache@v3
-      with:
-        path: |
-          ~/.ccache
-          ${{ github.workspace }}/build
-        key: ${{ runner.os }}-build-${{ github.sha }}
-        restore-keys: |
-          ${{ runner.os }}-build-
-        # Добавляем опцию flush-on-push для очистки кэша при пуше
-        flush-on-push: true
-      
     - name: Configure CMake
       run: |
+        rm -rf ${{github.workspace}}/build
+        mkdir ${{github.workspace}}/build
         cmake -B ${{ github.workspace }}/build -S ${{ github.workspace }} -DBUILD_TESTS=ON
         
     - name: Build
