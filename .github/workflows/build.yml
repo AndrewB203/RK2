@@ -26,12 +26,15 @@ jobs:
     - name: Build
       run: |
         cmake --build ${{ github.workspace }}/build
-
+        
+    - name: Configure tests 
+      run: cmake --build ${{github.workspace}}/build --target ProtoZoo
+      
     - name: Run tests
       run: |
         echo ${{ github.workspace }}
         ls ${{ github.workspace }}/build 
-        ctest --test-dir ${{ github.workspace }}/build ./ProtoZoo
+        ctest --test-dir ${{ github.workspace }}/build/ProtoZoo
       working-directory: ${{ github.workspace }}/build
       
     - name: Archive artifacts
