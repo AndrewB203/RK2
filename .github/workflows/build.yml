@@ -31,11 +31,7 @@ jobs:
       run: cmake --build ${{github.workspace}}/build --target ProtoZoo
       
     - name: Run tests
-      run: |
-        echo ${{ github.workspace }}
-        ls ${{ github.workspace }}/build 
-        ctest --test-dir ${{ github.workspace }}/build/ProtoZoo
-      working-directory: ${{ github.workspace }}/build
+      run: ${{ github.workspace }}/build/ProtoZoo
       
     - name: Archive artifacts
       uses: actions/upload-artifact@v3
