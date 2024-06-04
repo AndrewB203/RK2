@@ -30,8 +30,8 @@ jobs:
     - name: Run tests
       run: |
         echo ${{ github.workspace }}
-        ls ${{ github.workspace }}/build 
-        chmod +x ${{ github.workspace }}/build/ProtoZoo # Добавляем разрешение на выполнение
+        ls ${{ github.workspace }}/build -l
+        #chmod +x ${{ github.workspace }}/build/ProtoZoo # Добавляем разрешение на выполнение
         ${{ github.workspace }}/build/ProtoZoo # Запускаем ProtoZoo
       working-directory: ${{ github.workspace }}
 
